@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دليل ثيم لومو لمتاجر سلة</title>
+<meta name="description" content="دليل استخدام ثيم لومو لمتاجر سلة: التثبيت، الإعدادات، المكونات، الستوريز، مساعد الاختيار، والدعم.">
+<style>
+:root{--bg:#0d0b14;--surface:#16131f;--line:#2a2538;--fg:#ece9f5;--muted:#a59fb8;--accent:#8b6cf6;--accent2:#b9a6ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 system-ui,-apple-system,"Segoe UI",Tahoma,"IBM Plex Sans Arabic",sans-serif}
+a{color:var(--accent2)}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);background:radial-gradient(900px 300px at 80% -10%,rgba(139,108,246,.28),transparent 70%)}
+header .wrap{padding:56px 20px 40px}
+.tag{display:inline-block;font-size:13px;color:var(--accent2);border:1px solid var(--line);border-radius:99px;padding:3px 12px;margin-bottom:14px}
+h1{font-size:clamp(30px,5vw,46px);line-height:1.25;margin:0 0 10px}
+h1 span{color:var(--accent)}
+.lead{color:var(--muted);max-width:640px;margin:0}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:12px;text-decoration:none;font-weight:600;font-size:15px}
+.btn.p{background:var(--accent);color:#fff}
+.btn.s{border:1px solid var(--line);color:var(--fg)}
+nav.toc{position:sticky;top:0;z-index:5;background:rgba(13,11,20,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 20px;scrollbar-width:none}
+nav.toc a{white-space:nowrap;text-decoration:none;color:var(--muted);font-size:14px;padding:5px 12px;border-radius:99px}
+nav.toc a:hover{color:var(--fg);background:var(--surface)}
+section{padding:42px 0;border-bottom:1px solid var(--line)}
+h2{font-size:25px;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+h2 .n{font-size:13px;color:var(--accent2);border:1px solid var(--accent);border-radius:8px;padding:0 8px;line-height:24px}
+h3{font-size:18px;margin:26px 0 6px}
+p.sub{color:var(--muted);margin:0 0 18px}
+ol,ul{padding-inline-start:22px;margin:8px 0}
+li{margin:5px 0}
+.path{display:inline-block;background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:0 8px;font-size:14px;color:var(--accent2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.card b{display:block;margin-bottom:4px}
+.card small{color:var(--muted);display:block;line-height:1.7}
+.note{background:rgba(139,108,246,.09);border:1px solid rgba(139,108,246,.35);border-radius:12px;padding:12px 16px;margin:16px 0;font-size:15px}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:15px}
+th,td{text-align:start;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--accent2);font-weight:600}
+details{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:8px 0 0;color:var(--muted)}
+footer{padding:36px 0 60px;color:var(--muted);font-size:14px}
+.support{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+code{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:0 6px;font-size:14px;direction:ltr;unicode-bidi:embed}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="tag">ثيم لمتاجر سلة · الإصدار 4.9</span>
+  <h1>دليل ثيم <span>لومو</span></h1>
+  <p class="lead">كل اللي تحتاجه لتشغيل ثيم لومو وتخصيصه من لوحة سلة بدون أي كود: الإعدادات، المكونات، الستوريز، مساعد الاختيار، الألوان والمواسم، والدعم.</p>
+  <div class="cta">
+    <a class="btn p" href="https://wa.me/966560021654">تواصل واتساب</a>
+    <a class="btn s" href="mailto:dev.rayanalgh@gmail.com">dev.rayanalgh@gmail.com</a>
+  </div>
+</div></header>
+
+<nav class="toc"><div class="wrap">
+  <a href="#start">البداية</a><a href="#home">الصفحة الرئيسية</a><a href="#intro">الافتتاحية</a><a href="#colors">الألوان والمواسم</a><a href="#looks">شكل العرض</a><a href="#components">المكونات</a><a href="#stories">الستوريز</a><a href="#finder">مساعد الاختيار</a><a href="#plus">لومو بلس</a><a href="#images">الصور</a><a href="#faq">أسئلة شائعة</a><a href="#support">الدعم</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="start">
+  <h2><span class="n">1</span>البداية</h2>
+  <p class="sub">بعد شراء الثيم من متجر ثيمات سلة:</p>
+  <ol>
+    <li>من لوحة تحكم متجرك افتح <span class="path">تصميم المتجر</span> ثم فعّل ثيم <b>لومو</b>.</li>
+    <li>اضغط <span class="path">تخصيص</span> لفتح محرر الثيم. كل الإعدادات في هذا الدليل موجودة هناك.</li>
+    <li>ارفع شعار متجرك من إعدادات المتجر في سلة، وأضف أقسامك ومنتجاتك الحقيقية.</li>
+    <li>عاين المتجر على الجوال والكمبيوتر قبل إطلاقه.</li>
+  </ol>
+  <div class="note">الثيم يدعم العربية والإنجليزية تلقائيًا، ويتبع لغة المتجر واتجاهها.</div>
+</section>
+
+<section id="home">
+  <h2><span class="n">2</span>الصفحة الرئيسية</h2>
+  <p class="sub">عندك طريقتين لبناء الرئيسية:</p>
+  <div class="grid">
+    <div class="card"><b>الترتيب الجاهز</b><small>فعّل <span class="path">تصميم لومو الرقمي</span> وتظهر لك رئيسية كاملة جاهزة. تتحكم بإظهار أو إخفاء كل قسم من الإعدادات، مثل الهيرو والمنتجات والمميزات والإحصائيات.</small></div>
+    <div class="card"><b>منشئ الصفحة</b><small>فعّل <span class="path">تخصيص أقسام الرئيسية من محرر سلة</span>، ثم أضف المكونات اللي تبغاها ورتّبها بالسحب. كل مكون له حقوله الخاصة.</small></div>
+  </div>
+  <h3>الهيرو (الواجهة الأولى)</h3>
+  <ul>
+    <li>اكتب العنوان والوصف والنص التعريفي.</li>
+    <li>ارفع صورة المنتج الرئيسية بصيغة PNG شفافة، وصورة ثانية تظهر عند مرور الماوس إذا تبغى.</li>
+    <li>أو اختر <span class="path">واجهة الصفحة الرئيسية</span> لاستخدام بانر صورة كامل بدل الهيرو، مع صورة خاصة للجوال.</li>
+  </ul>
+  <h3>عرض بعداد</h3>
+  <p>اكتب تاريخ نهاية العرض بصيغة <code>2026-12-01T23:59:00+03:00</code>. العداد ينتهي على هذا الموعد بالضبط.</p>
+</section>
+
+<section id="intro">
+  <h2><span class="n">3</span>الافتتاحية المتحركة</h2>
+  <p class="sub">حركة قصيرة بشعار متجرك أو اسمه تظهر أول ما يفتح الزائر المتجر.</p>
+  <table>
+    <tr><th>الإعداد</th><th>الخيارات</th></tr>
+    <tr><td>تشغيل الافتتاحية</td><td>تشغيل أو إيقاف</td></tr>
+    <tr><td>وش يظهر</td><td>الشعار، أو اسم المتجر، أو الاثنين</td></tr>
+    <tr><td>الحركة</td><td>كشف تدريجي مع لمعة، توهج من الضبابية، طلوع من خط</td></tr>
+    <tr><td>متى تظهر</td><td>مرة واحدة لكل زيارة، أو كل مرة تُفتح الرئيسية</td></tr>
+    <tr><td>عبارة صغيرة</td><td>نص اختياري تحت الاسم</td></tr>
+    <tr><td>شعار بديل</td><td>شعار للمظهر الفاتح إذا شعارك فاتح اللون</td></tr>
+  </table>
+  <div class="note">الافتتاحية تختصر نفسها تلقائيًا ولا تأخر فتح المتجر، وتحترم خيار «تقليل الحركة» في جهاز الزائر.</div>
+</section>
+
+<section id="colors">
+  <h2><span class="n">4</span>الألوان والمواسم</h2>
+  <h3>لوحة الألوان</h3>
+  <ul>
+    <li>اختر من <span class="path">لون الواجهة الأساسي</span>: داكن بنفسجي، أو فاتح، أو أسود وأبيض.</li>
+    <li>تقدر تُظهر دوائر تبديل الألوان للزائر إذا تبغى.</li>
+  </ul>
+  <h3>ألوان مخصصة</h3>
+  <p>فعّل <span class="path">ألوان مخصصة</span> واكتب أكواد ألوانك بصيغة HEX مثل <code>#8B6CF6</code>:</p>
+  <ul>
+    <li><b>لون التمييز:</b> الأزرار والأسعار.</li>
+    <li><b>لون الخلفية.</b></li>
+    <li><b>لون البطاقات والأسطح.</b></li>
+    <li><b>لون النصوص.</b></li>
+  </ul>
+  <h3>وضع المواسم</h3>
+  <p>اختر موسمًا (رمضان، اليوم الوطني، الجمعة البيضاء) فيظهر شريط وزينة خفيفة بألوان الموسم، واكتب نص الشريط بنفسك. رجّعه إلى «بدون» بعد انتهاء الموسم.</p>
+</section>
+
+<section id="looks">
+  <h2><span class="n">5</span>شكل العرض</h2>
+  <p class="sub">من قسم <span class="path">Lumo Plus | شكل العرض والمواسم والألوان</span> في إعدادات الثيم:</p>
+  <table>
+    <tr><th>الجزء</th><th>الخيارات</th></tr>
+    <tr><td>صور المنتجات</td><td>PNG بدون خلفية، أو داخل إطار</td></tr>
+    <tr><td>بطاقات المجموعات</td><td>كبيرة أو صغيرة</td></tr>
+    <tr><td>الإحصائيات</td><td>خطوط متحركة أو إطارات</td></tr>
+    <tr><td>كيف نعمل</td><td>خط متصل بنقطة متحركة أو إطارات</td></tr>
+    <tr><td>شريط وسائل الدفع</td><td>خطوط أو إطارات</td></tr>
+    <tr><td>مميزات المتجر</td><td>خطوط أو إطارات</td></tr>
+  </table>
+</section>
+
+<section id="components">
+  <h2><span class="n">6</span>المكونات (37 مكوّن)</h2>
+  <p class="sub">تضيفها من منشئ الصفحة في محرر سلة، وتقدر ترتبها وتكررها.</p>
+  <div class="grid">
+    <div class="card"><b>لومو رقمي</b><small>الهيرو الرقمي، شريط الأقسام، أقسام مربعة، عرض بعداد، المنتجات المختارة، بطاقات المجموعات، مميزات المتجر، إحصائيات المتجر، بانر المنتجات الرقمية، الأكثر مبيعًا، بطاقة الولاء، آراء عملاء سلة، رسائل متقاطعة متحركة، فروع المتجر، كيف نعمل، شريط وسائل الدفع، الأسئلة الشائعة، عروض الباقات، مقارنة صورتين، منتج مع شرح متحرك.</small></div>
+    <div class="card"><b>لومو بلس</b><small>ستوريز المتجر، مساعد الاختيار، جدول مقارنة المواصفات، معرض السوشال، شاهدتها مؤخرًا.</small></div>
+    <div class="card"><b>لومو الكلاسيكي</b><small>أقسام كلاسيكية متحركة، معرض المنتجات، صورة حملة، عبارة متحركة، الأقسام، شريط إعلاني صغير.</small></div>
+    <div class="card"><b>مكونات عامة</b><small>صور متحركة، روابط سريعة، منتجات متحركة مع خلفية، صور مربعة، الماركات التجارية، آراء عملاء مخصصة.</small></div>
+  </div>
+  <h3>نصائح</h3>
+  <ul>
+    <li><b>جدول المواصفات:</b> اكتب «نعم» أو «لا» في الخانة فتظهر أيقونة صح أو خطأ.</li>
+    <li><b>شريط الدفع:</b> أضف فقط وسائل الدفع المفعّلة في متجرك.</li>
+    <li><b>الإحصائيات وآراء العملاء:</b> استخدم أرقامك وآراءك الحقيقية فقط.</li>
+    <li><b>بطاقة الولاء:</b> فعّل برنامج الولاء في سلة أولًا.</li>
+  </ul>
+</section>
+
+<section id="stories">
+  <h2><span class="n">7</span>ستوريز المتجر</h2>
+  <p class="sub">دوائر مثل ستوري إنستقرام في أعلى الرئيسية، تفتح عارضًا بملء الشاشة.</p>
+  <ol>
+    <li>أضف مكوّن <span class="path">لومو بلس | ستوريز المتجر</span> من منشئ الصفحة.</li>
+    <li>لكل ستوري: اسم قصير، وصورة الدائرة، ثم المحتوى: <b>صورة</b> أو <b>فيديو</b>.</li>
+    <li>الفيديو يقبل رابط MP4 مباشر أو رابط يوتيوب.</li>
+    <li>أضف عنوانًا ونصًا وزرًا برابط إذا تبغى توجه العميل لمنتج أو عرض.</li>
+  </ol>
+  <div class="note">الصور العمودية بمقاس 1080×1920 تعطي أفضل شكل.</div>
+</section>
+
+<section id="finder">
+  <h2><span class="n">8</span>مساعد الاختيار</h2>
+  <p class="sub">أسئلة بسيطة يجاوب عليها العميل، وبعدها يقترح له المنتج المناسب. أنت تتحكم بكل شيء.</p>
+  <ol>
+    <li>أضف مكوّن <span class="path">لومو بلس | مساعد الاختيار</span>.</li>
+    <li>اكتب نص كل سؤال وخياراته: الاهتمام، والميزانية، والاستخدام. ترتيب الخيار هو رقمه.</li>
+    <li>في <span class="path">النتائج</span>: اربط كل منتج برقم خيار الاهتمام والميزانية، وأضف الاسم والصورة والسعر والرابط وملاحظة قصيرة.</li>
+    <li>فعّل <span class="path">اعرض حتى 3 منتجات مقترحة</span> لإظهار أكثر من اقتراح.</li>
+  </ol>
+</section>
+
+<section id="plus">
+  <h2><span class="n">9</span>أدوات لومو بلس</h2>
+  <div class="grid">
+    <div class="card"><b>شريط الشحن المجاني</b><small>اكتب نفس حد الشحن المجاني اللي في إعدادات الشحن في سلة (رقم فقط). الشريط يوضح للعميل كم باقي، ولا يغير سعر الشحن.</small></div>
+    <div class="card"><b>زر واتساب عائم</b><small>اكتب رقمك بصيغة 9665xxxxxxxx، أو اتركه فارغًا لاستخدام رقم المتجر، واكتب الرسالة الافتراضية.</small></div>
+    <div class="card"><b>شاهدتها مؤخرًا</b><small>تعرض للزائر المنتجات اللي شافها. تُحفظ في متصفحه فقط ولا تُرسل لأي مكان.</small></div>
+    <div class="card"><b>مزايا الشراء</b><small>شريط تحت زر الإضافة للسلة في صفحة المنتج، مثل الدفع الآمن والشحن السريع. اكتب نصوصك أو اترك الافتراضية.</small></div>
+    <div class="card"><b>زر العودة للأعلى</b><small>مع مؤشر يوضح مقدار التمرير.</small></div>
+    <div class="card"><b>تنبيه العرض</b><small>نافذة عرض تظهر مرة لكل زيارة مع كود خصم. أنشئ الكود في سلة أولًا.</small></div>
+  </div>
+</section>
+
+<section id="images">
+  <h2><span class="n">10</span>مقاسات الصور</h2>
+  <table>
+    <tr><th>الصورة</th><th>المقاس المقترح</th></tr>
+    <tr><td>صور المنتجات</td><td>مربعة 1000×1000، ويفضّل PNG أو WebP شفافة</td></tr>
+    <tr><td>صورة الهيرو</td><td>PNG شفافة بعرض 1200 بكسل تقريبًا</td></tr>
+    <tr><td>البانر الكامل</td><td>1920×700، و800×1000 للجوال</td></tr>
+    <tr><td>بطاقات المجموعات</td><td>1200×900</td></tr>
+    <tr><td>الستوريز</td><td>1080×1920 عمودي</td></tr>
+  </table>
+  <div class="note">الخلفية البيضاء داخل ملف الصورة ما تختفي. استخدم صورًا شفافة فعلًا إذا تبغى المنتج يظهر بدون مربع.</div>
+</section>
+
+<section id="faq">
+  <h2><span class="n">11</span>أسئلة شائعة</h2>
+  <details><summary>هل الثيم سريع على الجوال؟</summary><p>نعم. الحركات تتوقف تلقائيًا لما تكون خارج الشاشة أو لما يكون التبويب غير نشط، عشان ما تستهلك الجهاز.</p></details>
+  <details><summary>أقدر أطفي الحركات؟</summary><p>نعم. كل قسم متحرك له خيار إيقاف، والثيم يحترم خيار «تقليل الحركة» في جهاز الزائر.</p></details>
+  <details><summary>البيانات اللي في المعاينة تنضاف لمتجري؟</summary><p>لا. منتجات وأرقام المعاينة للعرض فقط. أضف منتجاتك وبياناتك الحقيقية من لوحة سلة.</p></details>
+  <details><summary>شريط تابي وتمارا يفعّل الدفع؟</summary><p>لا. هو عرض بصري فقط. تفعيل وسائل الدفع يكون من إعدادات الدفع في سلة.</p></details>
+  <details><summary>كيف أحصل على التحديثات؟</summary><p>التحديثات توصلك عن طريق متجر ثيمات سلة بدون ما تفقد إعداداتك.</p></details>
+</section>
+
+<section id="support">
+  <h2><span class="n">12</span>الدعم</h2>
+  <p class="sub">إذا واجهتك أي مشكلة أو عندك سؤال، تواصل معنا ونرد عليك بأسرع وقت.</p>
+  <div class="support">
+    <a class="card" style="text-decoration:none;color:inherit" href="https://wa.me/966560021654"><b>واتساب</b><small>محادثة مباشرة</small></a>
+    <a class="card" style="text-decoration:none;color:inherit" href="mailto:dev.rayanalgh@gmail.com"><b>البريد</b><small>dev.rayanalgh@gmail.com</small></a>
+    <a class="card" style="text-decoration:none;color:inherit" href="https://rayanalghamdi.com/"><b>الموقع</b><small>rayanalghamdi.com</small></a>
+  </div>
+</section>
+
+</main>
+<footer><div class="wrap">ثيم لومو لمتاجر سلة · دليل الاستخدام</div></footer>
+</body>
+</html>
